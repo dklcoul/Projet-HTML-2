@@ -4,18 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LA MAISON DES SUPERS DELICES</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1>LA MAISON DES SUPERS DELICES</h1>
-    <P>Soyez les bienvenus dans notre univers de délices !</P>
-    <p>Découvrez nos délicieuses menus et desserts faits maison.</p>
-    <p>Nous utilisons uniquement des ingrédients naturels,frais et de qualités pour vous offrir une expérience gustative inoubliable.</p>
+    <nav class="navbar">
+        
+        <ul class="list-nav">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="image-navbar">
+            <img src="images/image.png" alt="image-navbar">
+            
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <div class="hero-item">
+                <h1>LA MAISON DES SUPERS DELICES</h1>
+                <P>Soyez les bienvenus dans notre univers de délices !</P>
+                <p>Découvrez nos délicieuses menus et desserts faits maison.</p>
+                <p>Nous utilisons uniquement des ingrédients naturels,frais et de qualités pour vous offrir une expérience gustative inoubliable.</p>
 
-    <div>
-        <h1>Nos Menus</h1>
-    </div>
+            </div>
+        </section>
+
+    </main>
     
-        <h2>Entrées</h2>
+
+            <div class="menu">
+                 <h1>Nos Menus</h1>
+            </div>
+
+            <div class="menu-items" id="menu">
+            
+    
+                 <h2>Entrées</h2>
         <ul>
             <li>
                 <strong>Salade César</strong>
@@ -31,7 +59,7 @@
             </li>
         </ul>
 
-        <h2>Plats de résistance</h2>
+                <h2>Plats de résistance</h2>
         <ul>
             <li>
                 <strong>Filet de saumon grillé</strong>
@@ -46,7 +74,7 @@
                 <p>Pâtes fraîches avec légumes de saison et sauce légère à l'ail et à l'huile d'olive.</p>
             </li>
         </ul>
-        <h2>Desserts</h2>
+                <h2>Desserts</h2>
         <ul>
             <li>
                 <strong>Tiramisu</strong>
@@ -60,12 +88,13 @@
                 <strong>Mousse au chocolat</strong>
                 <p>Mousse légère et aérienne au chocolat noir.</p>
             </li>
+            </div>
         </ul>
-        <a href="contact.html">Contactez-Nous pour passer une commande</a>
-
-
-
-            
+        <ul>
+            <br>
+        
+                <a href="contact.html" class="btn-primary">Contactez-Nous pour passer une commande</a>
+    
         </ul>
 
     </div>

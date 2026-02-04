@@ -1,0 +1,120 @@
+:root {
+    --rouge: #f5230c;
+    --gris: #646161;
+    --blanc: #ffffff;
+    --bleu-clair: #4fc8ece8;
+    --bleu-foncé: #1408bd;
+    --vert: #0cf524;
+    --vert-olive: #0bf813;
+}
+
+* {
+    margin: 0.5;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.list-nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: var(--gris);
+    
+}
+.list-nav li a {
+    margin: 0 20px;
+    font-weight: bold;
+    color: var(--blanc);
+    
+}
+.body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--noir);
+}
+.image-navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+   
+}
+.image-navbar img {
+    width: 90rem;
+    height: 30rem;
+    object-fit: cover;
+    justify-content: center;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+.hero h1 {
+    font-size: 3rem;
+    color: var(--bleu-foncé);
+    margin-bottom: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+.hero-item p {
+    font-size: 1.2rem;
+    color: var(--gris);
+    max-width: 600px;
+    text-align: center;
+
+}
+.menu {
+    background-color: var(--bleu-foncé);
+    padding: 10px;
+    text-align: center;
+    color: var(--blanc);
+    text-decoration: none;
+    list-style: none;
+    
+}
+.menu-items {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    
+}
+
+.menu-items h2 {
+    text-decoration: underline;
+    transition: all 0.3s ease;
+    padding: 10px;
+    color: var(--bleu-foncé);
+
+}
+
+.menu-items li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    color: var(--rouge);
+    background-color: var(--vert-olive);
+    border-radius: 10px;
+}
+.menu-items li p {
+    font-size: 1.2rem;
+    color: var(--bleu-foncé);
+}
+.btn-primary {
+    text-decoration: none;
+    color: var(--blanc);
+    background-color: var(--bleu-foncé);
+    padding: 10px;
+    border-radius: 8px;
+    justify-content: center;
+    transition: all 0.5s ease;
+   
+    
+    
+}
+
